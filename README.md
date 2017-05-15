@@ -20,7 +20,6 @@ The package contains 3 separate interfaces:
 3. One modeled after the rzmq interface (see help("rzmq"))
 
 
-
 ## Client/Server Example
 
 The primary focus of pbdZMQ is for building client/server interfaces
@@ -76,10 +75,10 @@ For an example of how to do this more persistently, see the pbdZMQ
 package vignette.
 
 
-
 ## Installation
 
 pbdZMQ requires
+
 * R version 3.0.0 or higher.
 * Linux, Mac OSX, Windows, or FreeBSD.
 * libzmq >= 4.0.4.
@@ -99,16 +98,31 @@ install_github("RBigData/pbdZMQ")
 ```
 
 
+## Citation
+
+When mentioning the pbdZMQ, please cite:
+
+```
+@MISC{pbdZMQ2015,
+  author = {Chen, W.-C. and Schmidt, D. and Heckendorf, C. and Ostrouchov, G.},
+  title = {pbdZMQ: Programming with Big Data -- Interface to ZeroMQ},
+  year = {2015},
+  note = {R Package, URL https://cran.r-project.org/package=pbdZMQ}
+}
+```
+
 
 ## Authors
 
 pbdMPI is authored and maintained by:
+
 * Wei-Chen Chen
 * Drew Schmidt
 * Christian Heckendorf
 * George Ostrouchov
 
 With additional contributions from:
+
 * Whit Armstrong (some functions are modified from rzmq for backwards compatibility)
 * Brian Ripley (C code of shellexec)
 * The R Core team (some functions are modified from the R source code)
