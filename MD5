@@ -1,6 +1,6 @@
 8f0e2cd40e05189ec81232da84bd6e1a *COPYING
-cc1e8812f788c21695da56f2f96db28a *ChangeLog
-c90ba26dd2950f8e22e8b55001bb5f08 *DESCRIPTION
+aca05cafc73b2fa80e707ce4adc00d07 *ChangeLog
+774cdce4d4de114fb3b3a069c59a96d5 *DESCRIPTION
 e98eb72e5940a9419e6a62f54becccb4 *INSTALL
 c89b71a3974275dfac03f4a97cbce43d *NAMESPACE
 817f699e130c106769e2651c1f2b7d6a *R/000_globalVariables.r
@@ -19,7 +19,7 @@ e944baa7abeabf1bd0366752672d7452 *R/R_zmq_transfer.r
 976020d575b778cef2431b80ffafe079 *R/address.r
 a2247e087a1cb053bb205c7237cbfb06 *R/base_ls.r
 22551740a49599a7f53fcdfd68a1bf47 *R/get_conf.r
-6f75f958e723e538d424b720258fc24b *R/get_conf_zmq.r
+76212d4f14e87b5feabee7c9c994c972 *R/get_conf_zmq.r
 1650fdb4f88f31152e73a7a70eaa9904 *R/pbdZMQ-package.r
 c9eeb8ff07fbb5ebb21171f26670896b *R/random_port.r
 cf23a61f6239d8ac73d3fb7503effdd9 *R/rzmq_wrapper.r
@@ -92,7 +92,7 @@ d337de8830759d7f6bb74e0811151bc6 *src/build_zmq.in
 e394c08b436cbced1ecd0555a8f61ac9 *src/build_zmq_linux.inc
 40662e8b02d6bdf72e4296821ccfca12 *src/build_zmq_mingw.inc
 f47a8a39b80e1a5bb4579ba8607fbe15 *src/chmod_zmq.inc
-16dd33247cce364db3f99ea2b9f9ccd4 *src/install.libs.R
+7d2046495079224d69e2a8caf241063a *src/install.libs.R
 bb11f17f2c2326c237a3a09ef6a812ac *src/shellexec_wcc.c
 9f1c35ea7aff9adcd9b293a43f4a2a68 *src/zmqsrc.win/Makefile
 a2c652257d58178c6f7a574a62954896 *src/zmqsrc.win/platform.hpp
