@@ -1,8 +1,8 @@
 8f0e2cd40e05189ec81232da84bd6e1a *COPYING
-aca05cafc73b2fa80e707ce4adc00d07 *ChangeLog
-774cdce4d4de114fb3b3a069c59a96d5 *DESCRIPTION
-e98eb72e5940a9419e6a62f54becccb4 *INSTALL
-c89b71a3974275dfac03f4a97cbce43d *NAMESPACE
+85aa3a49cd22f803f1a5a3053c91dde1 *ChangeLog
+ae93581588dbae345075db43e32b5c0c *DESCRIPTION
+3590a8e237c02c1f135b1625b9219854 *INSTALL
+34f6169d02c2fb63e9f5fa95d4dfe7f0 *NAMESPACE
 817f699e130c106769e2651c1f2b7d6a *R/000_globalVariables.r
 df3d2a7b4ca01828065861d151295b2e *R/111_control.r
 b53dd46bd525d1bd37a2e91ae3928d9e *R/111_pbd_opt.r
@@ -20,13 +20,14 @@ e944baa7abeabf1bd0366752672d7452 *R/R_zmq_transfer.r
 a2247e087a1cb053bb205c7237cbfb06 *R/base_ls.r
 22551740a49599a7f53fcdfd68a1bf47 *R/get_conf.r
 76212d4f14e87b5feabee7c9c994c972 *R/get_conf_zmq.r
+6595ea634bdda4578a1b0e9d160a0324 *R/overwrite_shpkg.r
 1650fdb4f88f31152e73a7a70eaa9904 *R/pbdZMQ-package.r
 c9eeb8ff07fbb5ebb21171f26670896b *R/random_port.r
 cf23a61f6239d8ac73d3fb7503effdd9 *R/rzmq_wrapper.r
 2949727fd0f38a00b69f2f1c72257bbe *R/shellexec_wcc.r
 9122b82c5068c6c761779f373aceb856 *R/windows/zzz.r
 1e8a6fdf02bd8804cab4c1e652cf91f9 *R/zmq.r
-7955ce4d4b051237fb7c61f0c6423980 *R/zzz.r.in
+820bf911b77a84cb2c8dfcd255cd3af2 *R/zzz.r.in
 0ce509e008abb225a5fa2bc7e3be4491 *README.md
 624a866a6346c275e1883ac449bfda79 *cleanup
 736e3d8fd2c0a3e44111acdeba7cf8be *configure
@@ -76,6 +77,7 @@ dd2de7dcf4075f7fd117eceafd8891e4 *man/u0_shellexec.wcc.Rd
 e7baaf92e03f558dd8f7d3a0de6221c7 *man/xx_ls_wrapper.Rd
 8a14ea8228921e9e3d751746e19ed958 *man/xx_rzmq_wrapper.Rd
 eda18e88a3301c83a2d5c96ce681a86b *man/xx_utility.Rd
+a28b49457b36dca1bbe605d692a643c2 *man/zz_overwrite_shpkg.Rd
 3ee1b0ee9d5ca82b370a7abd1a21eb3d *man/zz_zmq_control.Rd
 a0a5e38b4335ebd7916f08409c5436ad *man/zz_zmq_flags.Rd
 0c4dacab071e8f021ffdbf5719825f5a *src/Makevars.in
@@ -93,6 +95,7 @@ e394c08b436cbced1ecd0555a8f61ac9 *src/build_zmq_linux.inc
 40662e8b02d6bdf72e4296821ccfca12 *src/build_zmq_mingw.inc
 f47a8a39b80e1a5bb4579ba8607fbe15 *src/chmod_zmq.inc
 7d2046495079224d69e2a8caf241063a *src/install.libs.R
+b870a1585760a8f43599b72fd30b382b *src/pkg.m4
 bb11f17f2c2326c237a3a09ef6a812ac *src/shellexec_wcc.c
 9f1c35ea7aff9adcd9b293a43f4a2a68 *src/zmqsrc.win/Makefile
 a2c652257d58178c6f7a574a62954896 *src/zmqsrc.win/platform.hpp
