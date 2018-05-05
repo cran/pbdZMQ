@@ -1,6 +1,6 @@
 8f0e2cd40e05189ec81232da84bd6e1a *COPYING
-85aa3a49cd22f803f1a5a3053c91dde1 *ChangeLog
-ae93581588dbae345075db43e32b5c0c *DESCRIPTION
+3262cc160c31f1f743e914d289d30d42 *ChangeLog
+624dbf325cb8bf8fd990119fe600cc32 *DESCRIPTION
 3590a8e237c02c1f135b1625b9219854 *INSTALL
 34f6169d02c2fb63e9f5fa95d4dfe7f0 *NAMESPACE
 817f699e130c106769e2651c1f2b7d6a *R/000_globalVariables.r
@@ -50,7 +50,7 @@ c37a635cd01b6fa0239d813fbde5c78a *demo/taskwork.r
 93926d6d19797885161956e400034fa0 *demo/wuserver.r
 e59d7b81a68e497ffe1fa2fdae133847 *inst/CITATION
 54d6919cde9f585522e15efbaf0ab26c *inst/doc/pbdZMQ-guide.Rnw
-1644f6d1637d486c5c7a8dfda244610c *inst/doc/pbdZMQ-guide.pdf
+f0c16ab34f306f5fb931a5c99348ae1a *inst/doc/pbdZMQ-guide.pdf
 4d35f503fe3af101109f6c9a66fc46aa *inst/examples/README
 e3716e422ae0096bccf18260e169bca7 *inst/examples/reqrep/client.r
 3bf953a366a7603c232b721b2464e85e *inst/examples/reqrep/rzmq_client.r
@@ -367,7 +367,7 @@ ae55bb781029e865a762cdc3fb27f464 *vignettes/build_pdf.sh
 6e3ca1e66839ff78adb64b3c76cbbfb7 *vignettes/pbdZMQ-include/00-preamble.tex
 e33297e2b5069d0f34e134d0e1d9d60e *vignettes/pbdZMQ-include/01-acknowledgement.tex
 66eed1cec929858c6c3a4fda5e2c416c *vignettes/pbdZMQ-include/01-copyright.tex
-a20ba7b1896dc256dc1ae12f98f09057 *vignettes/pbdZMQ-include/01-introduction.tex
+4d397b2a9101f3101d9eda8f666c44ff *vignettes/pbdZMQ-include/01-introduction.tex
 0adb702595152b65ae028bbd04a4e376 *vignettes/pbdZMQ-include/02-installation.tex
 42fe0d53790e922e726fa03c0ef5da1f *vignettes/pbdZMQ-include/03-example.tex
 b0b8957f016b4132cc8a71158220a1ce *vignettes/pbdZMQ-include/04-backward.tex
