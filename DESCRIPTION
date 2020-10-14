@@ -1,5 +1,5 @@
 Package: pbdZMQ
-Version: 0.3-3
+Version: 0.3-3.1
 Date: 2018-04-30
 Title: Programming with Big Data -- Interface to 'ZeroMQ'
 Authors@R: c(person("Wei-Chen", "Chen", role = c("aut", "cre"), email =
@@ -41,7 +41,7 @@ MailingList: Please send questions and comments regarding pbdR to
 NeedsCompilation: yes
 Maintainer: Wei-Chen Chen <wccsnow@gmail.com>
 RoxygenNote: 6.0.1
-Packaged: 2018-05-01 03:19:59 UTC; snoweye
+Packaged: 2020-10-14 15:50:20 UTC; hornik
 Author: Wei-Chen Chen [aut, cre],
   Drew Schmidt [aut],
   Christian Heckendorf [aut] (file transfer),
@@ -54,4 +54,4 @@ Author: Wei-Chen Chen [aut, cre],
   Elliott Sales de Andrade [ctb] (sprintf),
   Spencer Aiello [ctb] (windows conf)
 Repository: CRAN
-Date/Publication: 2018-05-05 19:33:08 UTC
+Date/Publication: 2020-10-14 16:34:44 UTC
