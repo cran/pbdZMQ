@@ -6,20 +6,49 @@
 \alias{zmq.recvfile}
 \title{File Transfer Functions}
 \usage{
-zmq.sendfile(port, filename, verbose = FALSE, flags = .pbd_env$ZMQ.SR$BLOCK)
+zmq.sendfile(
+  port,
+  filename,
+  verbose = FALSE,
+  flags = .pbd_env$ZMQ.SR$BLOCK,
+  forcebin = FALSE,
+  ctx = NULL,
+  socket = NULL
+)
 
-zmq.recvfile(port, endpoint, filename, verbose = FALSE,
-  flags = .pbd_env$ZMQ.SR$BLOCK)
+zmq.recvfile(
+  port,
+  endpoint,
+  filename,
+  verbose = FALSE,
+  flags = .pbd_env$ZMQ.SR$BLOCK,
+  forcebin = FALSE,
+  ctx = NULL,
+  socket = NULL
+)
 }
 \arguments{
 \item{port}{A valid tcp port.}
 
-\item{filename}{The name (as a string) of the in/out files.}
+\item{filename}{The name (as a string) of the in/out files. The in and out file names
+can be different.}
 
-\item{verbose}{logical; determines if a progress bar should be shown.}
+\item{verbose}{Logical; determines if a progress bar should be shown.}
 
-\item{flags}{a flag for the method used by \code{zmq_sendfile} and
+\item{flags}{A flag for the method used by \code{zmq_sendfile} and
 \code{zmq_recvfile}}
+
+\item{forcebin}{Force to read/send/recv/write in binary form. Typically for a Windows
+system, text (ASCII) and binary files are processed differently.
+If \code{TRUE}, "r+b" and "w+b" will be enforced in the C code.
+This option is mainly for Windows.}
+
+\item{ctx}{A ZMQ ctx. If \code{NULL} (default), the function will initial one at
+the beginning and destroy it after finishing file transfer.}
+
+\item{socket}{A ZMQ socket based on \code{ctx}.
+If \code{NULL} (default), the function will create one at the beginning
+and close it after finishing file transfer.}
 
 \item{endpoint}{A ZMQ socket endpoint.}
 }
@@ -34,8 +63,13 @@ High level functions calling \code{zmq_send()} and \code{zmq_recv()}
 to transfer a file in 200 KiB chunks.
 }
 \details{
-\code{zmq.sendfile()} binds a \code{ZMQ_PUSH} socket, and 
-\code{zmq.recvfile()} connects to this with a \code{ZMQ_PULL} socket.
+If no socket is passed, then by default \code{zmq.sendfile()} binds a
+\code{ZMQ_PUSH} socket, and \code{zmq.recvfile()} connects to this with a
+\code{ZMQ_PULL} socket. On the other hand, a PUSH/PULL, REQ/REP, or REP/REQ
+socket pairing may be passed. In that case, the socket should already be
+connected to the desired endpoint. Be careful not to pass the wrong socket
+combination (e.g., do not do REQ/REQ), as this can put the processes in an
+un-recoverable state.
 }
 \examples{
 \dontrun{
@@ -55,7 +89,7 @@ zmq.sendfile(55555, "/tmp/infile", verbose=TRUE)
 ZeroMQ/4.1.0 API Reference:
 \url{http://api.zeromq.org/4-1:_start}
 
-Programming with Big Data in R Website: \url{http://r-pbd.org/}
+Programming with Big Data in R Website: \url{https://pbdr.org/}
 }
 \seealso{
 \code{\link{zmq.msg.send}()}, \code{\link{zmq.msg.recv}()}.
