@@ -1,6 +1,6 @@
 8f0e2cd40e05189ec81232da84bd6e1a *COPYING
-bff6f6557cf285b430ccb493fce42600 *ChangeLog
-e9e3425e8910e53fb11ff369f2fe1c1a *DESCRIPTION
+f7b82c69d65902cd5bff8379cbffc9fc *ChangeLog
+f4d9cc44bd49427141a187a35020db7b *DESCRIPTION
 56ed29d0d2745551edffc0d4e3a608a6 *INSTALL
 58593039ce96afde88ae175156082d63 *NAMESPACE
 817f699e130c106769e2651c1f2b7d6a *R/000_globalVariables.r
@@ -107,8 +107,8 @@ ea8e668187bdecc6e3590103f4e6fbdd *src/zmqsrc/Makefile.in
 4453f11bf59828c545dcaded57e172df *src/zmqsrc/aclocal.m4
 2e52a11bce1dd08dbac3f62dca013e90 *src/zmqsrc/autogen.sh
 0c8b042f99995c11aeb81bccc23c4c05 *src/zmqsrc/config/compile
-eea34cf893bb060ee20189e256a8065a *src/zmqsrc/config/config.guess
-8a6c9da335b8fdce655cc2f944ff224b *src/zmqsrc/config/config.sub
+c64564b7c7563dae5ebe016f340c9cd9 *src/zmqsrc/config/config.guess
+d320a9a1a5eb63901563ae5adf268433 *src/zmqsrc/config/config.sub
 f4aafb270c2f983f35b365aad5fe8870 *src/zmqsrc/config/depcomp
 6e5fe73723cd40a28adc5b7b5650c8d1 *src/zmqsrc/config/install-sh
 42a15e936131c8cbcc3c88b839022f8a *src/zmqsrc/config/libtool.m4
