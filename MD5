@@ -1,10 +1,10 @@
 8f0e2cd40e05189ec81232da84bd6e1a *COPYING
-f7b82c69d65902cd5bff8379cbffc9fc *ChangeLog
-f4d9cc44bd49427141a187a35020db7b *DESCRIPTION
+54998d1aae6ffcf4762235a988f54b49 *ChangeLog
+45b0f9ceefafab7658a20f98187fac89 *DESCRIPTION
 56ed29d0d2745551edffc0d4e3a608a6 *INSTALL
 58593039ce96afde88ae175156082d63 *NAMESPACE
 817f699e130c106769e2651c1f2b7d6a *R/000_globalVariables.r
-50e3fee84ec334f4087b800acae4be8b *R/111_control.r
+7cd3728b1a949742cf80184f3cdcbf32 *R/111_control.r
 4729bc4ba3783bf240b34a722d1ad887 *R/111_pbd_opt.r
 1ce382531f41be2279829ee07c14da1a *R/222_export_env.r
 95b3ec8f7b8d02416ed8adea68f53b96 *R/222_export_opt.r
@@ -20,7 +20,7 @@ eb80fe7aba578d1f7729cc41a8c92184 *R/R_zmq_transfer.r
 976020d575b778cef2431b80ffafe079 *R/address.r
 a2247e087a1cb053bb205c7237cbfb06 *R/base_ls.r
 22551740a49599a7f53fcdfd68a1bf47 *R/get_conf.r
-3da0a2eb17ddfbab0fd39d6b526e7a12 *R/get_conf_zmq.r
+63d265bb3058e775dfe9d489d544a624 *R/get_conf_zmq.r
 1685b37ba18fe8f3ae06377e923f883b *R/overwrite_shpkg.r
 af6aebecd00ec23c09c5098ae769e06c *R/pbdZMQ-package.r
 8afd67d46d3bd07cc66ca8f2b123e608 *R/random_port.r
@@ -31,8 +31,8 @@ a9f0f48f6c3efd4f7b5f9871c805349f *R/zmq.r
 d228c1eb73dd1f07ec469bc970af36cd *R/zzz.r.in
 a18d011c7eb323c53f9dc697ef46a2ad *README.md
 624a866a6346c275e1883ac449bfda79 *cleanup
-643e7f9800cad72bda6d4dd466fc9c47 *configure
-780657ceeff3b3c667cf3fbe7ed62268 *configure.ac
+a100ad9803ec19743c71ad513513b267 *configure
+69f8610a58507304d768b06f011fd230 *configure.ac
 d41d8cd98f00b204e9800998ecf8427e *configure.win
 a1db393fdf21ca3402850629768eede8 *demo/00Index
 b6ac8b487a91df8ac323ba422dc07236 *demo/check_eintr.r
@@ -80,9 +80,9 @@ dd2de7dcf4075f7fd117eceafd8891e4 *man/u0_shellexec.wcc.Rd
 671a6bda6fdcc285d47667b16c73c2fc *man/xx_rzmq_wrapper.Rd
 0a1a663204a64e3e42eceb05e8733735 *man/xx_utility.Rd
 40019756e23a1eb5858717b4bb71c1fd *man/zz_overwrite_shpkg.Rd
-b0c72bd881e34e6b4e076861238caf8f *man/zz_zmq_control.Rd
+c5786a7a178386e9cad0fd2e6a3c7f5f *man/zz_zmq_control.Rd
 cbf3da915e6f4b00041758ffddd71774 *man/zz_zmq_flags.Rd
-0c4dacab071e8f021ffdbf5719825f5a *src/Makevars.in
+f0e8d9ff77b49cca4daa897a141c273a *src/Makevars.in
 29e7341068398c22ef9f17a95f494ac2 *src/Makevars.win
 dfaa4defc9eaaac53dee81d446049815 *src/R_zmq.h
 9d8a72a8cfa7c4350999d27245e15d91 *src/R_zmq_context.c
@@ -363,8 +363,8 @@ f38317e8941219ddddac4a6dc64014dc *src/zmqsrc/src/zzz.cpp
 361c3d9e7c9b170a1eb7d119693af8dc *src/zzz.c
 9488e8938659709daf2594d6430eb59c *tests/address.R
 496a5f267defa645803d80907dcf56c8 *tests/ports.R
-566d7499b17151e7cfd588d18b77d84c *tests/send_recv.R
-4984bc5e5b67aa6a0402fde31a1ee1ac *tests/send_recv_rzmq.R
+0a5e263e09ddbb9a266d2ab41f58714d *tests/send_recv.R
+2edae1cf1350fe0926d1cb61957aa47e *tests/send_recv_rzmq.R
 ae55bb781029e865a762cdc3fb27f464 *vignettes/build_pdf.sh
 aba40d2c8aabe3cbc1e7bfd9b86b5656 *vignettes/pbdZMQ-guide.Rnw
 6e3ca1e66839ff78adb64b3c76cbbfb7 *vignettes/pbdZMQ-include/00-preamble.tex
