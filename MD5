@@ -1,6 +1,6 @@
 8f0e2cd40e05189ec81232da84bd6e1a *COPYING
-54998d1aae6ffcf4762235a988f54b49 *ChangeLog
-45b0f9ceefafab7658a20f98187fac89 *DESCRIPTION
+6d494a53b4d6417ebd2649c88905f383 *ChangeLog
+85c655e7cb2e4b638b296bf17a599e35 *DESCRIPTION
 56ed29d0d2745551edffc0d4e3a608a6 *INSTALL
 58593039ce96afde88ae175156082d63 *NAMESPACE
 817f699e130c106769e2651c1f2b7d6a *R/000_globalVariables.r
@@ -29,7 +29,7 @@ af6aebecd00ec23c09c5098ae769e06c *R/pbdZMQ-package.r
 9122b82c5068c6c761779f373aceb856 *R/windows/zzz.r
 a9f0f48f6c3efd4f7b5f9871c805349f *R/zmq.r
 d228c1eb73dd1f07ec469bc970af36cd *R/zzz.r.in
-a18d011c7eb323c53f9dc697ef46a2ad *README.md
+45f0f68fe2601b71541563d18cb8cf15 *README.md
 624a866a6346c275e1883ac449bfda79 *cleanup
 a100ad9803ec19743c71ad513513b267 *configure
 69f8610a58507304d768b06f011fd230 *configure.ac
@@ -101,6 +101,9 @@ b870a1585760a8f43599b72fd30b382b *src/pkg.m4
 d8156040aea27358bc9b9cadc4a5ba0c *src/shellexec_wcc.c
 9f1c35ea7aff9adcd9b293a43f4a2a68 *src/zmqsrc.win/Makefile
 a2c652257d58178c6f7a574a62954896 *src/zmqsrc.win/platform.hpp
+e3cc1b78e020a36879e3f7a623a0e30f *src/zmqsrc/AUTHORS
+f7b40df666d41e6508d03e1c207d498f *src/zmqsrc/COPYING
+d5311495d952062e0e4fbba39cbf3de1 *src/zmqsrc/COPYING.LESSER
 0571684a8fcdf7e5287458e63aa04a45 *src/zmqsrc/Makefile.am
 ea8e668187bdecc6e3590103f4e6fbdd *src/zmqsrc/Makefile.in
 0876cbda3b18940288927a17c0c29606 *src/zmqsrc/acinclude.m4
