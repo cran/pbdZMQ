@@ -1,7 +1,7 @@
 8f0e2cd40e05189ec81232da84bd6e1a *COPYING
-4bbc02f272952964bad0c58343398c1e *ChangeLog
-f52fe6520eb1ad0567291ca3ff880408 *DESCRIPTION
-56ed29d0d2745551edffc0d4e3a608a6 *INSTALL
+f1abc093edfe23a97833e929087e147a *ChangeLog
+5efb1f3977fcb21a79ac6ea380a48b4b *DESCRIPTION
+62ebe24ee35028e5e529e857092e47cf *INSTALL
 58593039ce96afde88ae175156082d63 *NAMESPACE
 817f699e130c106769e2651c1f2b7d6a *R/000_globalVariables.r
 7cd3728b1a949742cf80184f3cdcbf32 *R/111_control.r
@@ -22,7 +22,7 @@ a2247e087a1cb053bb205c7237cbfb06 *R/base_ls.r
 22551740a49599a7f53fcdfd68a1bf47 *R/get_conf.r
 63d265bb3058e775dfe9d489d544a624 *R/get_conf_zmq.r
 1685b37ba18fe8f3ae06377e923f883b *R/overwrite_shpkg.r
-af6aebecd00ec23c09c5098ae769e06c *R/pbdZMQ-package.r
+9b438bf1f6ef2fdfa2c0d989621e1159 *R/pbdZMQ-package.r
 8afd67d46d3bd07cc66ca8f2b123e608 *R/random_port.r
 8464a416066ffbd5e758b923af4cad1d *R/rzmq_wrapper.r
 2949727fd0f38a00b69f2f1c72257bbe *R/shellexec_wcc.r
@@ -48,7 +48,7 @@ ec115c28b00b19f6a5e03cc72c4bdc96 *demo/taskvent.r
 449afcaca6c8f846f45f1a6ad38b4c3e *demo/taskwork.r
 3d36e8e74cf95b84a3c2f9b770f52d46 *demo/wuclient.r
 1576d6ee73a915a3fc9d4f94aa71651e *demo/wuserver.r
-e59d7b81a68e497ffe1fa2fdae133847 *inst/CITATION
+cae163699eb95f26ad18d8b80d829b69 *inst/CITATION
 aba40d2c8aabe3cbc1e7bfd9b86b5656 *inst/doc/pbdZMQ-guide.Rnw
 0a948afc1ef0f9abfb920a620c98746d *inst/doc/pbdZMQ-guide.pdf
 4d35f503fe3af101109f6c9a66fc46aa *inst/examples/README
@@ -59,7 +59,7 @@ aba40d2c8aabe3cbc1e7bfd9b86b5656 *inst/doc/pbdZMQ-guide.Rnw
 e3cc1b78e020a36879e3f7a623a0e30f *inst/zmq_copyright/AUTHORS
 f7b40df666d41e6508d03e1c207d498f *inst/zmq_copyright/COPYING
 d5311495d952062e0e4fbba39cbf3de1 *inst/zmq_copyright/COPYING.LESSER
-dfe4cbfed1852910c2cb9767c12551d3 *man/a0_a_pbdZMQ-package.Rd
+8bbf2be287977991952872c800ca38bd *man/a0_a_pbdZMQ-package.Rd
 6fe037836b1fc6d2aaf6d9f30cf85985 *man/a0_b_control.Rd
 c0da64fcbff40080be25ca4ff67ad7ce *man/a0_b_pbd_opt.Rd
 2326830d027022f984a89b49c33da0a6 *man/a0_c_options.Rd
