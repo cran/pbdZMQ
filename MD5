@@ -1,6 +1,6 @@
 8f0e2cd40e05189ec81232da84bd6e1a *COPYING
-06fbddd4bd214f4426153ae7bb2982ab *ChangeLog
-986b045fe3de117f8a2a1c2a22a3810f *DESCRIPTION
+3089badf74a0ef80d2469bfe84b87de8 *ChangeLog
+768bc8ec8e0bb3ab9d678fbc4d5fee2c *DESCRIPTION
 62ebe24ee35028e5e529e857092e47cf *INSTALL
 58593039ce96afde88ae175156082d63 *NAMESPACE
 817f699e130c106769e2651c1f2b7d6a *R/000_globalVariables.r
@@ -25,7 +25,7 @@ a2247e087a1cb053bb205c7237cbfb06 *R/base_ls.r
 9b438bf1f6ef2fdfa2c0d989621e1159 *R/pbdZMQ-package.r
 8afd67d46d3bd07cc66ca8f2b123e608 *R/random_port.r
 8464a416066ffbd5e758b923af4cad1d *R/rzmq_wrapper.r
-2949727fd0f38a00b69f2f1c72257bbe *R/shellexec_wcc.r
+2a4b896d99e97f54c76d5902801915cf *R/shellexec_wcc.r
 54d150e36cd34b01cce6742d4826474b *R/windows/zzz.r
 a9f0f48f6c3efd4f7b5f9871c805349f *R/zmq.r
 5e49695d8acccc1b75117013efb792fe *R/zzz.r.in
@@ -88,7 +88,7 @@ ee7c526f454b9a369c06220aac697cdb *man/zz_zmq_control.Rd
 7049eb2419d306d4158e349a74cbe3ba *src/R_zmq_context.c
 b7bfc245635461d9bef57eba7b2113bb *src/R_zmq_message.c
 bd556beddc0e54a38aa3e28030e5bf6a *src/R_zmq_poll.c
-c4507eda313be2edb7d16dd0946dbcf2 *src/R_zmq_sendrecv.c
+66ac21ce9dcde41a00d6294e647d7d8a *src/R_zmq_sendrecv.c
 03004d3ce9e2c28c07be551aecd7d8c3 *src/R_zmq_socket.c
 f1846ff0f8eb20a12fca93f4ca30fd4b *src/R_zmq_transfer.c
 92e6e97130849efe9250aeb1fa62096d *src/R_zmq_utility.c
@@ -98,7 +98,7 @@ e394c08b436cbced1ecd0555a8f61ac9 *src/build_zmq_linux.inc
 f47a8a39b80e1a5bb4579ba8607fbe15 *src/chmod_zmq.inc
 907a0c119f5c02dbd8ceb020a4ac1a4b *src/install.libs.R
 b870a1585760a8f43599b72fd30b382b *src/pkg.m4
-d8156040aea27358bc9b9cadc4a5ba0c *src/shellexec_wcc.c
+eaeac8ab1fd45224503dc4d2318a5fb5 *src/shellexec_wcc.c
 9f1c35ea7aff9adcd9b293a43f4a2a68 *src/zmqsrc.win/Makefile
 a2c652257d58178c6f7a574a62954896 *src/zmqsrc.win/platform.hpp
 e3cc1b78e020a36879e3f7a623a0e30f *src/zmqsrc/AUTHORS
@@ -363,7 +363,7 @@ b38ed8e2f71045e3768cbef5140a6f84 *src/zmqsrc/src/zmq_draft.h
 83f65a431b623de96010e577480a8ba9 *src/zmqsrc/src/zmq_utils.cpp
 f38317e8941219ddddac4a6dc64014dc *src/zmqsrc/src/zzz.cpp
 42278fe44ab2b650e6b65f06ca4a5ea5 *src/zmqsrc/version.sh
-361c3d9e7c9b170a1eb7d119693af8dc *src/zzz.c
+4de891c43c009c15c1a99deab30de92a *src/zzz.c
 9488e8938659709daf2594d6430eb59c *tests/address.R
 496a5f267defa645803d80907dcf56c8 *tests/ports.R
 eb13c400a046c2fe1e7737dedc292ae9 *tests/send_recv.R
