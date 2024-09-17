@@ -1,6 +1,6 @@
 8f0e2cd40e05189ec81232da84bd6e1a *COPYING
-3089badf74a0ef80d2469bfe84b87de8 *ChangeLog
-768bc8ec8e0bb3ab9d678fbc4d5fee2c *DESCRIPTION
+daaccb152d99c49ac54c951c7a0df335 *ChangeLog
+201f31321a60e239aa41a3b203277dbc *DESCRIPTION
 62ebe24ee35028e5e529e857092e47cf *INSTALL
 58593039ce96afde88ae175156082d63 *NAMESPACE
 817f699e130c106769e2651c1f2b7d6a *R/000_globalVariables.r
@@ -84,7 +84,7 @@ ee7c526f454b9a369c06220aac697cdb *man/zz_zmq_control.Rd
 8f6c7b77693128f00774f729b263819f *src/Makevars.in
 0de86436be02237c0752be33ed4b10ad *src/Makevars.win
 71224f0686473f1a865c155a978c75ee *src/R_cxx_dummy.cc
-18cd436e700ad2a4625d553c39ae6195 *src/R_zmq.h
+bd298dc92f4d8afcf547e7198bd08cf9 *src/R_zmq.h
 7049eb2419d306d4158e349a74cbe3ba *src/R_zmq_context.c
 b7bfc245635461d9bef57eba7b2113bb *src/R_zmq_message.c
 bd556beddc0e54a38aa3e28030e5bf6a *src/R_zmq_poll.c
